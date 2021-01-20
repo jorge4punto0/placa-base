@@ -72,7 +72,7 @@ body {
 
 .header__nav-link {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   margin: 15px;
   color: var(--gray-12-color);
@@ -167,6 +167,22 @@ body {
 .brands__img {
   width: inherit;
   object-fit: fill;
+}
+
+/* C19 */
+.c19 {
+  color: var(--second-color);
+  text-align: center;
+  padding: 70px 0;
+  border-bottom: 1px solid #273746;
+}
+.c19__text {
+  width: 70%;
+  margin: auto;
+}
+
+.c19__span {
+  font-weight: 800;
 }
 
 /* SERVICES */
@@ -414,6 +430,9 @@ body {
   .about {
     padding: 60px 0;
   }
+  .about__container {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 660px) {
@@ -448,6 +467,10 @@ body {
   .main__img {
     width: 80%;
     margin-left: 0;
+  }
+
+  .about__container {
+    width: 90%;
   }
 }
 
@@ -503,6 +526,10 @@ body {
     height: 16.5vw;
     background: var(--gray-13-color);
     border-radius: 35px;
+  }
+
+  .about__container {
+    width: 90%;
   }
 
   /* footer */
