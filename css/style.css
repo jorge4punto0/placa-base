@@ -453,6 +453,10 @@ body {
     width: 100%;
   }
 
+  .main__title {
+    font-size: 11vw;
+  }
+
   .main__text-container {
     position: relative;
     width: 90%;
