@@ -355,6 +355,35 @@ body {
   font-size: 0.75em;
   color: var(--gray-10-color);
 }
+.footer__cta-chat,
+.fa-telegram,
+.fa-whatsapp-square {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  font-size: 50px;
+  margin-right: 30px;
+  opacity: 0.9;
+}
+
+.fa-telegram {
+  bottom: 0;
+  margin-bottom: 345px;
+  color: #1e96c8;
+}
+.fa-whatsapp-square {
+  margin-bottom: 275px;
+  color: #28ac00;
+}
+.fa-telegram:hover {
+  font-size: 65px;
+  opacity: 1;
+}
+.fa-whatsapp-square:hover {
+  font-size: 65px;
+  opacity: 1;
+  /*   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9); */
+}
 
 /* MEDIA QUERIES */
 
