@@ -504,24 +504,6 @@ body {
   width: 70px;
 }
 
-/* DEVELOPER */
-.developer {
-  padding: 5px 0;
-  background: var(--gray-1-color);
-}
-.developer__link {
-  text-align: center;
-  margin-bottom: 5px;
-}
-.developer__link a {
-  color: #710162;
-  font-size: 1.6rem;
-}
-.developer__link a:hover {
-  color: var(--gray-15-color);
-  font-size: 1.7rem;
-}
-
 /* CHAT WSP-TLG */
 .chat {
   position: fixed;
@@ -553,6 +535,40 @@ body {
 
 .chat__w {
   color: var(--whatsapp);
+}
+
+/* DEVELOPER */
+.dev {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-1-color);
+  width: 100%;
+  padding-block: 7px;
+  border-block-start: 1px solid var(--gray-2-color);
+}
+.dev__text {
+  font-size: 14px;
+  margin-block-end: 5px;
+  color: var(--gray-13-color);
+}
+.dev__details {
+  display: flex;
+  align-items: center;
+}
+.dev__img {
+  width: 140px;
+  margin-inline-end: 20px;
+}
+.dev__contact-button {
+  background: #e6a427;
+  padding-block: 2px;
+  padding-inline: 10px;
+  border-radius: 15px;
+  color: var(--gray-1-color);
+  font-weight: 600;
+  font-size: 14px;
 }
 
 /* MEDIA QUERIES */
